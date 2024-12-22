@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApp.API", "GraphQLApp.API\GraphQLApp.API.csproj", "{4989037D-BAD5-4EC4-9ED3-0AB310A3C295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4FB7819-1B9B-409F-9927-A5ED31342313}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApp.Domain", "GraphQLApp.Domain\GraphQLApp.Domain.csproj", "{A5FF45AF-BE8C-4BB0-A776-71A41C7F6C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApp.Infrastructure", "GraphQLApp.Infrastructure\GraphQLApp.Infrastructure.csproj", "{30A782B3-6ABE-460F-833F-B841DCAD94C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApp.Application", "GraphQLApp.Application\GraphQLApp.Application.csproj", "{839D334B-9B7A-4C19-981B-05583A3E5344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4989037D-BAD5-4EC4-9ED3-0AB310A3C295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4989037D-BAD5-4EC4-9ED3-0AB310A3C295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4989037D-BAD5-4EC4-9ED3-0AB310A3C295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4989037D-BAD5-4EC4-9ED3-0AB310A3C295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FF45AF-BE8C-4BB0-A776-71A41C7F6C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FF45AF-BE8C-4BB0-A776-71A41C7F6C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FF45AF-BE8C-4BB0-A776-71A41C7F6C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FF45AF-BE8C-4BB0-A776-71A41C7F6C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A782B3-6ABE-460F-833F-B841DCAD94C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A782B3-6ABE-460F-833F-B841DCAD94C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A782B3-6ABE-460F-833F-B841DCAD94C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A782B3-6ABE-460F-833F-B841DCAD94C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839D334B-9B7A-4C19-981B-05583A3E5344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839D334B-9B7A-4C19-981B-05583A3E5344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839D334B-9B7A-4C19-981B-05583A3E5344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839D334B-9B7A-4C19-981B-05583A3E5344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

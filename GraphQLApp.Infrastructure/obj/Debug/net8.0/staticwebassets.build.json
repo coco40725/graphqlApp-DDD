@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "TTJuMfBmlHzwwaN1wQLFE+G21T6YClR0JnXjyBLp8oU=",
+  "Source": "GraphQLApp.Infrastructure",
+  "BasePath": "_content/GraphQLApp.Infrastructure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Rider_workspqce\\GraphQLApp\\GraphQLApp.Domain\\GraphQLApp.Domain.csproj",
+      "Version": 2,
+      "Source": "GraphQLApp.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

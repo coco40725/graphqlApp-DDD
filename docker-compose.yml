@@ -1,0 +1,32 @@
+﻿services:
+#  graphqlapp_item1:
+#    image: graphqlapp_item1
+#    build:
+#      context: .
+#      dockerfile: GraphQLApp_Item1/Dockerfile
+#
+#  graphqlapp.domain:
+#    image: graphqlapp.domain
+#    build:
+#      context: .
+#      dockerfile: GraphQLApp.Domain/Dockerfile
+#
+#  graphqlapp.infrastructure:
+#    image: graphqlapp.infrastructure
+#    build:
+#      context: .
+#      dockerfile: GraphQLApp.Infrastructure/Dockerfile
+#
+#  graphqlapp.application:
+#    image: graphqlapp.application
+#    build:
+#      context: .
+#      dockerfile: GraphQLApp.Application/Dockerfile
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: graphqlapp
+    ports:
+      - "3306:3306"

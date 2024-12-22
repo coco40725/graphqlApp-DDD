@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CTJ7yEbYk6FWxaXWTDokON5JQmTqxJDngatjEDDZ68c=",
+  "Source": "GraphQLApp.Domain",
+  "BasePath": "_content/GraphQLApp.Domain",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
